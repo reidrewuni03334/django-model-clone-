@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "django-model-clone"
+version = "0.1.0"
+description = "duplication of django model object"
+authors = ["humanscape-june <june.333@humanscape.io>"]
+license = "ISC"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
